@@ -1,0 +1,51 @@
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftSectionContainer {
+  height: 100vh;
+  width: 50vw;
+  background-color: #ffc533;
+  color: #334155;
+  padding: 20px;
+}
+
+.rightSectionContainer {
+  text-align: center;
+  height: 100vh;
+  width: 50vw;
+  background-color: #0f172a;
+  padding: 20px 30px;
+}
+.rightHeading {
+  color: #ffc533;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.inputBar {
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #ffc533;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.listItem {
+  list-style-type: none;
+  font-weight: bold;
+}
+.image {
+  width: 100%;
+  margin-top: 50px;
+}
